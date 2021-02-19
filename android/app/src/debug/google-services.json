@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "666248731318",
+    "project_id": "talk-vienna-d2959",
+    "storage_bucket": "talk-vienna-d2959.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666248731318:android:03c55e388ec711f53b2417",
+        "android_client_info": {
+          "package_name": "chat.rocket.reactnative"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666248731318-i7indt70e9ef10munvtc06v49l9dldk0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "chat.rocket.reactnative",
+            "certificate_hash": "fd6f6eea20f6a3b5117ad6d71675060de7f3ca41"
+          }
+        },
+        {
+          "client_id": "666248731318-oh9edeh7jfm09qjmgbiv6nofth4b1p7o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "chat.rocket.reactnative",
+            "certificate_hash": "1b08171e7efb1e1cfcbd4f2d87c848fbc89f0ef9"
+          }
+        },
+        {
+          "client_id": "666248731318-ho9i4lmtbc01dkvtk5hfbn7f88p9ljtr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQvQORGup7Y_7jEXI-j4LHE2GK2coycBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666248731318-ho9i4lmtbc01dkvtk5hfbn7f88p9ljtr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

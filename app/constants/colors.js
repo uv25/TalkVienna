@@ -85,7 +85,7 @@ export const themes = {
 		auxiliaryTintColor: '#f9f9f9',
 		actionTintColor: '#1d74f5',
 		separatorColor: '#2b2b2d',
-		navbarBackground: '#0b182c',
+		navbarBackground: '#F9B31D',
 		headerBorder: '#2F3A4B',
 		headerBackground: '#0b182c',
 		headerSecondaryBackground: '#0b182c',
