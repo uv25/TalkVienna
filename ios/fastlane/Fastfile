@@ -35,7 +35,7 @@ platform :ios do
     )
     pilot(
       ipa: 'ios/Rocket.Chat.ipa',
-      app_identifier: options[:official] ? 'chat.rocket.ios' : 'chat.rocket.reactnative',
+      app_identifier: options[:official] ? 'com.vienna.ios' : 'com.vienna.talk',
       skip_waiting_for_build_processing: true
     )
     upload_symbols_to_crashlytics(dsym_path: "./ios/Rocket.Chat.app.dSYM.zip")
@@ -50,8 +50,8 @@ platform :ios do
       in_house: false
     )
     match(type: "appstore")
-    get_provisioning_profile(app_identifier: "chat.rocket.reactnative.ShareExtension")
-    get_provisioning_profile(app_identifier: "chat.rocket.reactnative.NotificationService")
+    get_provisioning_profile(app_identifier: "com.vienna.talk.ShareExtension")
+    get_provisioning_profile(app_identifier: "com.vienna.talk.NotificationService")
     # pem(api_key: api_key) # still uses Spaceship http://docs.fastlane.tools/actions/pem/#how-does-it-work
     gym(
       scheme: "RocketChatRN",
@@ -66,14 +66,14 @@ platform :ios do
 
     match(
       type: "appstore",
-      app_identifier: ["chat.rocket.ios", "chat.rocket.ios.NotificationService", "chat.rocket.ios.Rocket-Chat-ShareExtension"],
+      app_identifier: ["com.vienna.ios", "com.vienna.ios.NotificationService", "com.vienna.ios.Talk-Vienna-ShareExtension"],
       readonly: true,
       output_path: './'
     )
 
     update_project_provisioning(
       xcodeproj: 'RocketChatRN.xcodeproj',
-      profile: "AppStore_chat.rocket.ios.NotificationService.mobileprovision",
+      profile: "AppStore_com.vienna.ios.NotificationService.mobileprovision",
       target_filter: "NotificationService",
       build_configuration: 'Release',
       code_signing_identity: 'iPhone Distribution'
@@ -81,15 +81,15 @@ platform :ios do
 
     update_project_provisioning(
       xcodeproj: 'RocketChatRN.xcodeproj',
-      profile: "AppStore_chat.rocket.ios.Rocket-Chat-ShareExtension.mobileprovision",
-      target_filter: "ShareRocketChatRN",
+      profile: "AppStore_com.vienna.ios.Talk-Vienna-ShareExtension.mobileprovision",
+      target_filter: "ShareTalkVienna",
       build_configuration: 'Release',
       code_signing_identity: 'iPhone Distribution'
     )
 
     gym(
       scheme: "RocketChat",
-      workspace: "RocketChatRN.xcworkspace",
+      workspace: "TalkVienna.xcworkspace",
       xcargs: "-allowProvisioningUpdates",
       output_name: "Rocket.Chat"
     )
@@ -97,7 +97,7 @@ platform :ios do
 
   desc "Build fork app"
   lane :build_fork do
-    gym(scheme: "RocketChatRN", workspace: "RocketChatRN.xcworkspace", skip_codesigning: true, skip_archive: true)
+    gym(scheme: "TalkVienna", workspace: "TalkVienna.xcworkspace", skip_codesigning: true, skip_archive: true)
   end
 
   after_all do |lane|

@@ -7,25 +7,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:666248731318:android:03c55e388ec711f53b2417",
+        "mobilesdk_app_id": "1:666248731318:android:458b1179ac9a8d153b2417",
         "android_client_info": {
-          "package_name": "chat.rocket.reactnative"
+          "package_name": "com.vienna.talk"
         }
       },
       "oauth_client": [
         {
-          "client_id": "666248731318-i7indt70e9ef10munvtc06v49l9dldk0.apps.googleusercontent.com",
+          "client_id": "666248731318-cftjfg30nuo92fcaaemvjk85g9lr84i2.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "chat.rocket.reactnative",
-            "certificate_hash": "fd6f6eea20f6a3b5117ad6d71675060de7f3ca41"
-          }
-        },
-        {
-          "client_id": "666248731318-oh9edeh7jfm09qjmgbiv6nofth4b1p7o.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "chat.rocket.reactnative",
+            "package_name": "com.vienna.talk",
             "certificate_hash": "1b08171e7efb1e1cfcbd4f2d87c848fbc89f0ef9"
           }
         },

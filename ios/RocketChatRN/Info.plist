@@ -5,7 +5,7 @@
 	<key>IS_OFFICIAL</key>
 	<false/>
 	<key>AppGroup</key>
-	<string>group.ios.chat.rocket</string>
+	<string>group.ios.com.vienna</string>
 	<key>BugsnagAPIKey</key>
 	<string></string>
 	<key>CFBundleDevelopmentRegion</key>
@@ -44,7 +44,7 @@
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>KeychainGroup</key>
-	<string>$(AppIdentifierPrefix)chat.rocket.reactnative</string>
+	<string>$(AppIdentifierPrefix)com.vienna.talk</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>googlechrome</string>
