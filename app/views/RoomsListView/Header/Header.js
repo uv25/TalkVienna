@@ -67,9 +67,24 @@ const Header = React.memo(({
 	return (
 		<View style={styles.container}>
 			<View style={styles.button}>
-				<Text style={[styles.title, isFetching && styles.serverSmall, titleColorStyle, { fontSize: titleFontSize }]} numberOfLines={1}>{serverName}</Text>
+				{/* {serverName}
+				Hidden the server name... 
+				*/}
+				<Text
+					style={[
+						styles.title,
+						isFetching && styles.serverSmall,
+						titleColorStyle,
+						{ fontSize: titleFontSize },
+					]}
+					numberOfLines={1}
+				>
+					Talk Vienna
+				</Text>
 			</View>
-			{subtitle ? <Text style={[styles.subtitle, { color: themes[theme].auxiliaryText, fontSize: subTitleFontSize }]} numberOfLines={1}>{subtitle}</Text> : null}
+
+			{/* {subtitle} */}
+			{/* {subtitle ? <Text style={[styles.subtitle, { color: themes[theme].auxiliaryText, fontSize: subTitleFontSize }]} numberOfLines={1}>Talk Vienna</Text> : null} */}
 		</View>
 	);
 });
