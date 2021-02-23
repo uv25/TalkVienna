@@ -16,7 +16,7 @@ const themes = {
 const item = {
 	name: 'Rocket.Chat',
 	id: 'https://open.rocket.chat/',
-	iconURL: 'https://open.rocket.chat/images/logo/android-chrome-512x512.png'
+	iconURL: '../../app/static/images.logo.png'
 };
 
 const ServerItem = props => (

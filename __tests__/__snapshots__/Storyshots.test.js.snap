@@ -61118,7 +61118,7 @@ Array [
           source={
             Object {
               "priority": "high",
-              "uri": "https://open.rocket.chat/images/logo/android-chrome-512x512.png",
+              "uri": "../../app/Static/images/logo.png",
             }
           }
           style={
@@ -61260,7 +61260,7 @@ Array [
           source={
             Object {
               "priority": "high",
-              "uri": "https://open.rocket.chat/images/logo/android-chrome-512x512.png",
+              "uri": "../../app/Static/images/logo.png",
             }
           }
           style={
@@ -61488,7 +61488,7 @@ Array [
           source={
             Object {
               "priority": "high",
-              "uri": "https://open.rocket.chat/images/logo/android-chrome-512x512.png",
+              "uri": "../../app/Static/images/logo.png",
             }
           }
           style={
@@ -61630,7 +61630,7 @@ Array [
           source={
             Object {
               "priority": "high",
-              "uri": "https://open.rocket.chat/images/logo/android-chrome-512x512.png",
+              "uri": "../../app/Static/images/logo.png",
             }
           }
           style={
@@ -61772,7 +61772,7 @@ Array [
           source={
             Object {
               "priority": "high",
-              "uri": "https://open.rocket.chat/images/logo/android-chrome-512x512.png",
+              "uri": "../../app/Static/images/logo.png",
             }
           }
           style={
@@ -61919,7 +61919,7 @@ Array [
           source={
             Object {
               "priority": "high",
-              "uri": "https://open.rocket.chat/images/logo/android-chrome-512x512.png",
+              "uri": "../../app/Static/images/logo.png",
             }
           }
           style={
@@ -62034,7 +62034,7 @@ Array [
           source={
             Object {
               "priority": "high",
-              "uri": "https://open.rocket.chat/images/logo/android-chrome-512x512.png",
+              "uri": "../../app/Static/images/logo.png",
             }
           }
           style={
@@ -62149,7 +62149,7 @@ Array [
           source={
             Object {
               "priority": "high",
-              "uri": "https://open.rocket.chat/images/logo/android-chrome-512x512.png",
+              "uri": "../../app/Static/images/logo.png",
             }
           }
           style={
