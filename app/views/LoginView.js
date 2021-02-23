@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
 
 class LoginView extends React.Component {
 	static navigationOptions = ({ route, navigation }) => ({
-		title: route.params?.title ?? 'Rocket.Chat',
+		title: route.params?.title ?? 'Talk Vienna',
 		headerRight: () => <HeaderButton.Legal testID='login-view-more' navigation={navigation} />
 	})
 
@@ -89,7 +89,10 @@ class LoginView extends React.Component {
 
 	get showRegistrationButton() {
 		const { Accounts_RegistrationForm, inviteLinkToken } = this.props;
-		return Accounts_RegistrationForm === 'Public' || (Accounts_RegistrationForm === 'Secret URL' && inviteLinkToken?.length);
+		// return Accounts_RegistrationForm === 'Public' || (Accounts_RegistrationForm === 'Secret URL' && inviteLinkToken?.length);
+		
+		//Blocking registeration..
+		return false;
 	}
 
 	login = () => {
