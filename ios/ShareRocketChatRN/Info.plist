@@ -21,7 +21,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0.1</string>
 	<key>CFBundleVersion</key>
-	<string>2</string>
+	<string>1</string>
 	<key>KeychainGroup</key>
 	<string>$(AppIdentifierPrefix)com.vienna.talk</string>
 	<key>NSAppTransportSecurity</key>
