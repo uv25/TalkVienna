@@ -7,20 +7,12 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:666248731318:android:458b1179ac9a8d153b2417",
+        "mobilesdk_app_id": "1:666248731318:android:df94c58024fe5cd03b2417",
         "android_client_info": {
-          "package_name": "com.vienna.talk"
+          "package_name": "chat.vienna.talk"
         }
       },
       "oauth_client": [
-        {
-          "client_id": "666248731318-cftjfg30nuo92fcaaemvjk85g9lr84i2.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.vienna.talk",
-            "certificate_hash": "1b08171e7efb1e1cfcbd4f2d87c848fbc89f0ef9"
-          }
-        },
         {
           "client_id": "666248731318-ho9i4lmtbc01dkvtk5hfbn7f88p9ljtr.apps.googleusercontent.com",
           "client_type": 3
